@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="nav">
+        <ul>
+            <li id="head">UserName</li>
+            <li>
+                <ul>
+                    <li><a id="signup" href="#">Signup</a></li>
+                    <li><a class="active" id="profile" href="#">Profile</a></li>
+                    <li>
+                        <label class="switch">
+                            <input id="dark" type="checkbox">
+                            <span class="slider round"></span>
+                          </label>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <div class="container">
+            <h1>Profile</h1>
+            <div class="items">Full Name : <span class="spans" id="name"></span> </div>
+            <div class="items">Email : <span class="spans" id="email"></span> </div>
+            <div class="items">Password : <span class="spans" id="pass"></span> </div>
+            <button id="log-out">Logout</button>
+        </div>
+    </main>
+    <div class="message">
+
+    </div>
+    <script src="profile.js"></script>
+</body>
+</html>
